@@ -1,4 +1,4 @@
-# LocalizationWebpackPlugin
+# UnusedFilesPlugin
 [![npm version](https://badge.fury.io/js/unused-files-plugin.svg)](https://badge.fury.io/js/unused-files-plugin)
 
 Show or remove all files that are not compiled by webpack under webpack's context.
