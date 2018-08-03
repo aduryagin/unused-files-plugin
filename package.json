@@ -1,6 +1,6 @@
 {
   "name": "unused-files-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": ["webpack", "plugin", "unused files", "unused code"],
   "description": "Show or remove all files that are not compiled by webpack under webpack's context.",
   "main": "UnusedFilesPlugin.js",
