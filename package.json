@@ -1,13 +1,27 @@
 {
   "name": "unused-files-plugin",
   "version": "1.0.1",
-  "keywords": ["webpack", "plugin", "unused files", "unused code"],
+  "keywords": [
+    "webpack",
+    "plugin",
+    "unused files",
+    "unused code"
+  ],
   "description": "Show or remove all files that are not compiled by webpack under webpack's context.",
-  "main": "UnusedFilesPlugin.js",
+  "main": "dist/UnusedFilesPlugin.js",
   "author": "Alexey Duryagin <aiduryagih@gmail.com> (https://github.com/aduryagin)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url" : "https://github.com/aduryagin/unused-files-plugin.git"
+    "url": "https://github.com/aduryagin/unused-files-plugin.git"
+  },
+  "scripts": {
+    "build": "babel source --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0"
   }
 }
